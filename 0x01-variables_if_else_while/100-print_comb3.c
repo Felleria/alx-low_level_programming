@@ -9,7 +9,7 @@ int main(void)
 	int f_d;
 	int l_d;
 
-	while (c <= 99)
+	while (c <= 9)
 	{
 		f_d = (c / 10 + '0');
 		l_d = (c % 10 + '0');
@@ -19,7 +19,7 @@ int main(void)
 			putchar(f_d);
 			putchar(l_d);
 
-			if (c != 89)
+			if (c != 8)
 			{
 				putchar(f_d);
 				putchar(' ');
