@@ -1,32 +1,34 @@
 #include <stdio.h>
 /**
- * main - program that prints all possible different combinations of 2 digits
- * Return: 0
+ * main - print single digit numbers starting from 0
+ *
+ * Return: returns zero at the end
  */
 int main(void)
 {
-	int c = 0;
-	int f_d;
-	int l_d;
+	int i, j;
 
-	while (c <= 9)
+	for(i = 0; i < 9; i++)
 	{
-		f_d = (c / 10 + '0');
-		l_d = (c % 10 + '0');
-
-		if (f_d < l_d)
+		for(j = 1; j <=9; j++)
 		{
-			putchar(f_d);
-			putchar(l_d);
-
-			if (c != 8)
+			if (j > 1)
 			{
-				putchar(f_d);
-				putchar(' ');
+				putchar(i +'0');
+				putchar(j + '0');
+				if ( i !=8)
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
+
 		}
-		c++;
 	}
 	putchar('\n');
 	return (0);
 }
+
+					
+
+			
