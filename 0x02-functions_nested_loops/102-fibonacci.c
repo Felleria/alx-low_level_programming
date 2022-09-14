@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
- *main - prints out first 50
- *fibonacci suit numbers
- *Return: return 0
- */
+*main - prints out first 50
+*fibonacci suit numbers
+*Return: return 0
+*/
 int main(void)
 {
 int inc;
