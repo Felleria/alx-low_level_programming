@@ -27,11 +27,6 @@ void print_triangle(int size)
 
 			if (inc1 == size)
 			{
-				putchar(' ');
-			}
-
-			if (inc1 == size)
-			{
 				continue;
 			}
 
@@ -40,4 +35,3 @@ void print_triangle(int size)
 	}
 	putchar('\n');
 }
-
