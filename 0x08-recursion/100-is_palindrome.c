@@ -35,8 +35,6 @@ void check(char *s, int start, int end, int *flag)
 	}
 }
 
-
-
 /**
  * _strlen_recursion - calculates the length of a string
  * @s: string to be used
